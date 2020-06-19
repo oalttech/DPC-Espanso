@@ -35,7 +35,7 @@ matches:
               <div class="note info"> 
                 <div class="m-r-20">
                     <span style="font: 3rem InstructureIcons-Line;">&#xEA93</span>
-                    <span class="screenreader-only">   <<<Info font>>>   </span>
+                    <span class="screenreader-only">Info font</span>
                 </div> 
                 <div> 
                     <p>   <<<When you need to add an important note about something (like a reminder to students, or a not about privacy, use this element. Replace this text with your note.>>>   </p> 
