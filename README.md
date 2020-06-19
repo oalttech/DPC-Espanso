@@ -9,6 +9,17 @@ package_repo: "https://github.com/oalttech/DPC-Espanso"
 Collections of various shortcuts for DPC at USQ
 
 # Version Log
-## Changes
-- Created the :vimeohtml shortcut to generate the html to embed a vimeo link, changes that need to be made by the user are; "VIDEODESCRIPTION" for the video description, "VIDEOHEAD" for the video title, "VIDEOLINK" for the full link to the video, and "VIDEOTRANSCRIPT" for the full link to the video transcript. Make sure to remove all <<< and >>>, as well as all the spaces between " ".
+## V 1.0
+### Commands
+	- :vimeohtml
+	- :blockquote
+	- :note!
+	- :usqvideembed
+	- :ytvideoembed
+	- :ytvideolinkout
+	- :actbox
+	- :actbutton
+	- :readblock
+	- :exploreblock
+	
 
