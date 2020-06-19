@@ -3,39 +3,13 @@
 name: OALT-DPC 
 parent: default
 
-matches:
-  - trigger: ":vimeohtml"
-    replace: |
-              <div class="media-box-usq">
-                <div class="media-box-header">
-                    <div class="media-box-header__title left col-lg-12">
-                        <span class="text-15 bold">WATCH<br/>   <<<VIDEOHEAD>>>   </span>
-                            <p>  <<<VIDEODESCRIPTION>>>  </p>
-                                <div class="media-box-center">
-                                    <iframe src="   <<<VIDEOLINK>>>   " width="640" height="320" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen"></iframe>
-                                </div>
-                        <span>
-                                    <span>Video not loading? <a href="   <<<VIDEOLINK>>>   ">View on Vimeo</a>.
-                                <br />
-                                </span>
-                            <a href="   <<<VIDEOTRANSCRIPT>>>   "Download the transcript for this video</a>
-                        </span>
-                    </div>
-                </div>
-              </div>
-  - trigger: ":blockquote"
-    replace: |
-              <blockquote style="text-align: left;">
-                <p>   <<<Put the text of the quote here. Put the text of the quote here. Put the text of the quote here. Put the text of the quote here.>>>   </p>
-                <p style="font-size: 14px !important; text-align: right;">   <<<(APA in text citation here)>>>   </p> 
-              </blockquote>
 
   - trigger: ":note!"
     replace: |
               <div class="note info"> 
                 <div class="m-r-20">
                     <span style="font: 3rem InstructureIcons-Line;">&#xEA93</span>
-                    <span class="screenreader-only">   <<<Info font>>>   </span>
+                    <span class="screenreader-only">Info font</span>
                 </div> 
                 <div> 
                     <p>   <<<When you need to add an important note about something (like a reminder to students, or a not about privacy, use this element. Replace this text with your note.>>>   </p> 
@@ -49,7 +23,7 @@ matches:
                         <div class="info"> 
                             <div class="m-r-10">
                                 <span style="font: 2rem InstructureIcons-Line;">&#xEAA8</span>
-                                <span class="screenreader-only">   <<<Video font>>>   </span>
+                                <span class="screenreader-only">Video font</span>
                             </div> 
                             <div>
                                 <span class="bold">   <<<Title of video [x:xx mins.]>>>   </span>
