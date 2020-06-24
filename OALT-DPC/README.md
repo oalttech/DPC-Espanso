@@ -8,11 +8,13 @@ package_repo: "https://github.com/oalttech/DPC-Espanso"
 ---
 Collections of various shortcuts for DPC at USQ
 
+- espanso install OALT-DPC https://github.com/oalttech/DPC-Espanso --external
+
 # Version Log
 ## V 1.1
 ### Commands
 	- :note!
-	- :usqvideembed
+	- :usqvideoembed
 	- :ytvideoembed
 	- :ytvideolinkout
 	- :actbox
@@ -33,5 +35,3 @@ Collections of various shortcuts for DPC at USQ
 	- :readblock
 	- :exploreblock
 	- :blockquote
-	
-
