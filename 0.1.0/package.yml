@@ -4,31 +4,6 @@ name: OALT-DPC
 parent: default
 
 matches:
-  - trigger: ":vimeohtml"
-    replace: |
-              <div class="media-box-usq">
-                <div class="media-box-header">
-                    <div class="media-box-header__title left col-lg-12">
-                        <span class="text-15 bold">WATCH<br/>   <<<VIDEOHEAD>>>   </span>
-                            <p>  <<<VIDEODESCRIPTION>>>  </p>
-                                <div class="media-box-center">
-                                    <iframe src="   <<<VIDEOLINK>>>   " width="640" height="320" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen"></iframe>
-                                </div>
-                        <span>
-                                    <span>Video not loading? <a href="   <<<VIDEOLINK>>>   ">View on Vimeo</a>.
-                                <br />
-                                </span>
-                            <a href="   <<<VIDEOTRANSCRIPT>>>   "Download the transcript for this video</a>
-                        </span>
-                    </div>
-                </div>
-              </div>
-  - trigger: ":blockquote"
-    replace: |
-              <blockquote style="text-align: left;">
-                <p>   <<<Put the text of the quote here. Put the text of the quote here. Put the text of the quote here. Put the text of the quote here.>>>   </p>
-                <p style="font-size: 14px !important; text-align: right;">   <<<(APA in text citation here)>>>   </p> 
-              </blockquote>
 
   - trigger: ":note!"
     replace: |
@@ -38,7 +13,7 @@ matches:
                     <span class="screenreader-only">Info font</span>
                 </div> 
                 <div> 
-                    <p>   <<<When you need to add an important note about something (like a reminder to students, or a not about privacy, use this element. Replace this text with your note.>>>   </p> 
+                    <p>REPLACE ME: Add your note text here.</p> 
                 </div> 
               </div>
   - trigger: ":usqvideoembed"
@@ -49,18 +24,18 @@ matches:
                         <div class="info"> 
                             <div class="m-r-10">
                                 <span style="font: 2rem InstructureIcons-Line;">&#xEAA8</span>
-                                <span class="screenreader-only">   <<<Video font>>>   </span>
+                                <span class="screenreader-only">Video font</span>
                             </div> 
                             <div>
-                                <span class="bold">   <<<Title of video [x:xx mins.]>>>   </span>
+                                <span class="bold">REPLACE ME: Title of video [x.xx mins.]</span>
                             </div> 
                         </div> 
-                        <p>   <<<Explain what the video is about and provide a rationale for why they should watch it.>>>   </p> 
+                        <p>REPLACE ME: Explain what the video is about and provide a rationale for why they should watch it.</p> 
                         <div class="media-box-center">
-                            <iframe src="   <<<YOUTUBE LINK>>>   " width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                            <iframe src="REPLACE ME WITH VIDEO LINK" width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
                         </div> 
-                        <span>Video not loading? <a href="   <<<VIMEO LINK>>>   ">View on vimeo.</a> </span> 
-                        <a class="instructure_file_link instructure_scribd_file" title="<<<FILE NAME.docx>>>" href="<<<LinkToTranscriptDownload>>>" data-api-endpoint="<<<LinkToDataApi>>>" data-api-returntype="File"> <span>Download the transcript for this video.</span></a>
+                        <span>Video not loading? <a href="REPLACE ME WITH VIDEO LINK">View on Vimeo.</a> </span> 
+                        <span>Download the transcript for this video.</span></a>
                     </div> 
                 </div> 
               </div>
@@ -75,15 +50,14 @@ matches:
                             <span class="screenreader-only">Video font</span>
                         </div> 
                         <div>
-                            <span class="bold">Title of video [x:xx mins.]</span>
+                            <span class="bold">REPLACE ME: Title of video [x.xx mins.]</span>
                         </div> 
                     </div> 
-                    <p>Explain what the video is about and provide a rationale for why they should watch it.</p> 
+                    <p>REPLACE ME: Explain what the video is about and provide a rationale for why they should watch it.</p> 
                     <div class="media-box-center">
-                        <iframe src="https://www.youtube.com/embed/xERRnUacjL4" width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                        <iframe src="REPLACE ME WITH VIDEO LINK" width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
                     </div> 
-                    <span>Video not loading? <a href="https://vimeo.com/315763808/6842e5a33d"> View on Vimeo/YouTube - delete what doesn't apply.</a> </span> 
-                    <a class="instructure_file_link instructure_scribd_file" title="LIN8007MCA Validity &amp; Reliability in Testing Script.docx" href="https://usqupskill.instructure.com/courses/4/files/824/download?wrap=1" data-api-endpoint="https://usqupskill.instructure.com/api/v1/courses/4/files/824" data-api-returntype="File"> <span>Download the transcript for this video.</span></a>
+                    <span>Video not loading? <a href="REPLACE ME WITH VIDEO LINK">View on Vimeo/YouTube - delete what doesn't apply.</a> </span>
                     </div>
                 </div>
               </div>
@@ -100,16 +74,16 @@ matches:
                                     <span class="screenreader-only">Video font</span>
                                 </div> 
                                 <div>
-                                    <span class="bold">Title of video in bold [x.xx mins.]</span>
+                                    <span class="bold">REPLACE ME: Title of video in bold [x.xx mins.]</span>
                                 </div> 
                             </div> 
                             <div class="media-box-header__right">
-                                <a class="button-usq external inline_disabled" href="https://www.youtube.com/watch?v=PGv9YY8mG2E" target="_blank" rel="noopener">Watch<span class="screenreader-only">&nbsp;(Links to an external site.)</span>
+                                <a class="button-usq external inline_disabled" href="REPLACE ME WITH VIDEO LINK" target="_blank" rel="noopener">Watch<span class="screenreader-only">&nbsp;(Links to an external site.)</span>
                                 <span class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."><span class="screenreader-only">Links to an external site.</span></span></a>
                             </div> 
                         </div> 
                     </div> 
-                    <p>Explain what the video is about and provide a rationale for why they should watch it.</p>
+                    <p>REPLACE ME: Explain what the video is about and provide a rationale for why they should watch it.</p>
                 </div>
               </div>
 
@@ -125,10 +99,11 @@ matches:
                                 <span class="screenreader-only">Activity font</span>
                             </div> 
                             <div>
-                                <span class="bold">Activity x.x: Activity name</span>
+                                <span class="bold">REPLACE ME: Activity x.x: Activity name</span>
                             </div> 
                         </div> 
-                        <p>Provide a sentence or two of context/rationale for the activity.</p> <p>Write the activity instructions here. Break them down into steps if possible. Link to a Community thread if it's a discussion.</p> 
+                        <p>REPLACE ME: Provide a sentence or two of context/rationale for the activity.</p> 
+                        <p>REPLACE MEWrite the activity instructions here. Break them down into steps if possible. Link to a Community thread if it's a discussion.</p> 
                     </div> 
                 </div> 
               </div>
@@ -145,11 +120,11 @@ matches:
                                     <span class="screenreader-only">Activity font</span>
                                 </div> 
                                 <div>
-                                    <span class="bold">Activity x.x: Activity name</span>
+                                    <span class="bold">REPLACE ME: Activity x.x: Activity name</span>
                                 </div> 
                             </div> 
                             <div class="media-box-header__right">
-                                <a class="button-usq external inline_disabled" href="https://www.youtube.com/watch?v=PGv9YY8mG2E" target="_blank" rel="noopener">Read<span class="screenreader-only">&nbsp;(Links to an external site.)</span><span class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."><span class="screenreader-only">Links to an external site.</span></span></a>
+                                <a class="button-usq external inline_disabled" href="REPLACE ME WITH ACTIVITY LINK" target="_blank" rel="noopener">Read<span class="screenreader-only">&nbsp;(Links to an external site.)</span><span class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."><span class="screenreader-only">Links to an external site.</span></span></a>
                             </div> 
                         </div> 
                     </div> 
@@ -170,16 +145,16 @@ matches:
                                     <span class="screenreader-only">Book font</span>
                                 </div> 
                                 <div> 
-                                    <span class="bold">Reading title in bold - title of article, book chapter, blog post etc</span> 
+                                    <span class="bold">REPLACE ME: Reading title in bold - title of article, book chapter, blog post etc</span> 
                                 </div> 
                             </div> 
                             <div class="media-box-header__right">
-                                <a class="button-usq external inline_disabled" href="https://www.youtube.com/watch?v=PGv9YY8mG2E" target="_blank" rel="noopener">Read<span class="screenreader-only">&nbsp;(Links to an external site.)</span><span class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."><span class="screenreader-only">Links to an external site.</span></span></a>
+                                <a class="button-usq external inline_disabled" href="REPLACE ME WITH READING LINK" target="_blank" rel="noopener">Read<span class="screenreader-only">&nbsp;(Links to an external site.)</span><span class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."><span class="screenreader-only">Links to an external site.</span></span></a>
                             </div> 
                         </div> 
                     </div> 
-                    <p>Full APA reference (APA 7th). Make sure you add in the HTML for formatting, particular italics for titles. In lieu of DOIs, include direct link to reading in the database where the article is available.</p> 
-                    <p>Explain what the reading is about and provide a rationale for why the student should read it.</p> 
+                    <p>REPLACE ME: Full APA reference (APA 7th). Make sure you add in the HTML for formatting, particular italics for titles. In lieu of DOIs, include direct link to reading in the database where the article is available.</p> 
+                    <p>REPLACE ME: Explain what the reading is about and provide a rationale for why the student should read it.</p> 
                 </div> 
               </div>
 
@@ -194,16 +169,24 @@ matches:
                                     <span style="font: 2rem InstructureIcons-Line;">&#xEAE9</span> <span class="screenreader-only">Explore font</span>
                                 </div> 
                                 <div>
-                                    <span class="bold">Website title</span>
+                                    <span class="bold">REPLACE ME: Website title</span>
                                 </div> 
                             </div> 
-                            <div class="media-box-header__right"><a class="button-usq external inline_disabled" href="https://www.youtube.com/watch?v=PGv9YY8mG2E" target="_blank" rel="noopener">Explore<span class="screenreader-only">&nbsp;(Links to an external site.)</span><span class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."><span class="screenreader-only">Links to an external site.</span></span></a>
+                            <div class="media-box-header__right"><a class="button-usq external inline_disabled" href="REPLACE ME WITH WEBSITE LINK" target="_blank" rel="noopener">Explore<span class="screenreader-only">&nbsp;(Links to an external site.)</span><span class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."><span class="screenreader-only">Links to an external site.</span></span></a>
                             </div> 
                         </div> 
                     </div> 
-                    <p>Full APA reference (APA 7th). Make sure you add in the HTML for formatting, particular italics for titles. </p> 
-                    <p>Explain what the resource is about and provide a rationale for why the student go and explore it.</p> 
+                    <p>REPLACE ME: Full APA reference (APA 7th). Make sure you add in the HTML for formatting, particular italics for titles. </p> 
+                    <p>REPLACE M: Explain what the resource is about and provide a rationale for why the student go and explore it.</p> 
                 </div> 
               </div>
+
+  - trigger: ":blockquote"
+    replace: |
+              <blockquote style="text-align: left;">
+              <p>REPLACE ME: Put the text of the quote here. Put the text of the quote here. Put the text of the quote here. Put the text of the quote here. Put the text of the quote here. Put the text of the quote here. Put the text of the quote here. Put the text of the quote here. Put the text of the quote here. Put the text of the quote here.</p>
+              <p style="font-size: 14px !important; text-align: right;">REPLACE ME: (APA in text citation here)</p> 
+              </blockquote>              
+
   - trigger: ":hellothere"
     replace: "General Kenobi"
