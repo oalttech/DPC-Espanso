@@ -186,7 +186,13 @@ matches:
               <blockquote style="text-align: left;">
               <p>REPLACE ME: Put the text of the quote here. Put the text of the quote here. Put the text of the quote here. Put the text of the quote here. Put the text of the quote here. Put the text of the quote here. Put the text of the quote here. Put the text of the quote here. Put the text of the quote here. Put the text of the quote here.</p>
               <p style="font-size: 14px !important; text-align: right;">REPLACE ME: (APA in text citation here)</p> 
-              </blockquote>              
+              </blockquote>
 
   - trigger: ":hellothere"
     replace: "General Kenobi"
+
+  - trigger: ":ahref"
+    replace: "<a href='{{clipboard}}' />$|$</a>"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
