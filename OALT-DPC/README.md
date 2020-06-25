@@ -3,7 +3,7 @@ package_name: "OALT-DPC"
 package_title: "DPC Shortcuts"
 package_desc: "DPC espanso package for use internally"
 package_version: "0.1.1"
-package_author: "M Drake, K Davis"
+package_author: "oalttech, katiedavis-usq"
 package_repo: "https://github.com/oalttech/DPC-Espanso"
 ---
 Collections of various shortcuts for DPC at USQ
@@ -22,6 +22,7 @@ Collections of various shortcuts for DPC at USQ
 	- :readblock
 	- :exploreblock
 	- :blockquote
+	- :ahref
 ## V 1.0
 ### Commands
 	- :vimeohtml
