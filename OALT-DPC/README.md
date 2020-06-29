@@ -8,7 +8,8 @@ package_repo: "https://github.com/oalttech/DPC-Espanso"
 ---
 Collections of various shortcuts for DPC at USQ
 
-- espanso install OALT-DPC https://github.com/oalttech/DPC-Espanso --external
+To install, run the following command;
+		espanso install OALT-DPC https://github.com/oalttech/DPC-Espanso --external
 
 # Version Log
 ## V 1.1
