@@ -12,6 +12,20 @@ To install, run the following command;
 		espanso install OALT-DPC https://github.com/oalttech/DPC-Espanso --external
 
 # Version Log
+## V 1.3
+### Commands
+	- :mathprob
+	- :note!
+	- :usqvideoembed
+	- :ytvideoembed
+	- :ytvideolinkout
+	- :actbox
+	- :actbutton
+	- :readblock
+	- :listenblock
+	- :exploreblock
+	- :blockquote
+	- :ahref
 ## V 1.1
 ### Commands
 	- :note!
