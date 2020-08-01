@@ -1,0 +1,230 @@
+# USQ's DPC Department within OALT
+
+name: OALT-DPC 
+parent: default
+
+matches:
+
+  - trigger: ":mathprob"
+    replace: |
+              <div class="note info">  
+                <div> 
+                    <p>REPLACE ME: Add your note text here.</p> 
+                </div> 
+              </div>
+  - trigger: ":note!"
+    replace: |
+              <div class="note info"> 
+                <div class="m-r-20">
+                    <span style="font: 3rem InstructureIcons-Line;">&#xEA93</span>
+                    <span class="screenreader-only">Info font</span>
+                </div> 
+                <div> 
+                    <p>REPLACE ME: Add problem here.</p> 
+                </div> 
+              </div>
+  - trigger: ":usqvideoembed"
+    replace: |
+              <div class="media-box-usq"> 
+                <div class="media-box-header"> 
+                    <div class="media-box-header__title left col-lg-12"> 
+                        <div class="info"> 
+                            <div class="m-r-10">
+                                <span style="font: 2rem InstructureIcons-Line;">&#xEAA8</span>
+                                <span class="screenreader-only">Video font</span>
+                            </div> 
+                            <div>
+                                <span class="bold">REPLACE ME: Title of video [x.xx mins.]</span>
+                            </div> 
+                        </div> 
+                        <p>REPLACE ME: Explain what the video is about and provide a rationale for why they should watch it.</p> 
+                        <div class="media-box-center">
+                            <iframe src="REPLACE ME WITH VIDEO LINK" width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                        </div> 
+                        <span>Video not loading? <a href="REPLACE ME WITH VIDEO LINK">View on Vimeo.</a> </span> 
+                        <span>Download the transcript for this video.</span></a>
+                    </div> 
+                </div> 
+              </div>
+
+  - trigger: ":ytvideoembed"
+    replace: |
+              <div class="media-box-usq"> 
+                <div class="media-box-header"> 
+                    <div class="media-box-header__title left col-lg-12"> 
+                        <div class="info"> 
+                            <div class="m-r-10"><span style="font: 2rem InstructureIcons-Line;">&#xEAA8</span>
+                            <span class="screenreader-only">Video font</span>
+                        </div> 
+                        <div>
+                            <span class="bold">REPLACE ME: Title of video [x.xx mins.]</span>
+                        </div> 
+                    </div> 
+                    <p>REPLACE ME: Explain what the video is about and provide a rationale for why they should watch it.</p> 
+                    <div class="media-box-center">
+                        <iframe src="REPLACE ME WITH VIDEO LINK" width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                    </div> 
+                    <span>Video not loading? <a href="REPLACE ME WITH VIDEO LINK">View on Vimeo/YouTube - delete what doesn't apply.</a> </span>
+                    </div>
+                </div>
+              </div>
+
+  - trigger: ":ytvideolinkout"
+    replace: |
+              <div class="media-box-usq">
+                <div class="border"> 
+                    <div class="media-box-header-2"> 
+                        <div class="info"> 
+                            <div class="group"> 
+                                <div class="m-r-10">
+                                    <span style="font: 2rem InstructureIcons-Line;">&#xEAA8 </span>
+                                    <span class="screenreader-only">Video font</span>
+                                </div> 
+                                <div>
+                                    <span class="bold">REPLACE ME: Title of video in bold [x.xx mins.]</span>
+                                </div> 
+                            </div> 
+                            <div class="media-box-header__right">
+                                <a class="button-usq external inline_disabled" href="REPLACE ME WITH VIDEO LINK" target="_blank" rel="noopener">Watch<span class="screenreader-only">&nbsp;(Links to an external site.)</span>
+                                <span class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."><span class="screenreader-only">Links to an external site.</span></span></a>
+                            </div> 
+                        </div> 
+                    </div> 
+                    <p>REPLACE ME: Explain what the video is about and provide a rationale for why they should watch it.</p>
+                </div>
+              </div>
+
+
+  - trigger: ":actbox"
+    replace: |
+              <div class="media-box-usq"> 
+                <div class="media-box-header"> 
+                    <div class="media-box-header__title left col-lg-12"> 
+                        <div class="info"> 
+                            <div class="m-r-10">
+                                <span style="font: 2rem InstructureIcons-Line;">&#xEA1B </span>
+                                <span class="screenreader-only">Activity font</span>
+                            </div> 
+                            <div>
+                                <span class="bold">REPLACE ME: Activity x.x: Activity name</span>
+                            </div> 
+                        </div> 
+                        <p>REPLACE ME: Provide a sentence or two of context/rationale for the activity.</p> 
+                        <p>REPLACE MEWrite the activity instructions here. Break them down into steps if possible. Link to a Community thread if it's a discussion.</p> 
+                    </div> 
+                </div> 
+              </div>
+
+  - trigger: ":actbutton"
+    replace: |
+              <div class="media-box-usq"> 
+                <div class="border"> 
+                    <div class="media-box-header-2"> 
+                        <div class="info"> 
+                            <div class="group"> 
+                                <div class="m-r-10">
+                                    <span style="font: 2rem InstructureIcons-Line;">&#xEA1B</span> 
+                                    <span class="screenreader-only">Activity font</span>
+                                </div> 
+                                <div>
+                                    <span class="bold">REPLACE ME: Activity x.x: Activity name</span>
+                                </div> 
+                            </div> 
+                            <div class="media-box-header__right">
+                                <a class="button-usq external inline_disabled" href="REPLACE ME WITH ACTIVITY LINK" target="_blank" rel="noopener">Read<span class="screenreader-only">&nbsp;(Links to an external site.)</span><span class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."><span class="screenreader-only">Links to an external site.</span></span></a>
+                            </div> 
+                        </div> 
+                    </div> 
+                    <p>Provide a sentence or two of context/rationale for the activity.</p> 
+                    <p>Write the activity isntructions here. Break them down into steps if possible. Link to a Community thread if it's a discussion.</p> 
+                </div> 
+              </div>
+
+  - trigger: ":readblock"
+    replace: |
+              <div class="media-box-usq"> 
+                <div class="border"> 
+                    <div class="media-box-header-2"> 
+                        <div class="info"> 
+                            <div class="group"> 
+                                <div class="m-r-10">
+                                    <span style="font: 2rem InstructureIcons-Line;">&#xEA4D</span> 
+                                    <span class="screenreader-only">Book font</span>
+                                </div> 
+                                <div> 
+                                    <span class="bold">REPLACE ME: Reading title in bold - title of article, book chapter, blog post etc</span> 
+                                </div> 
+                            </div> 
+                            <div class="media-box-header__right">
+                                <a class="button-usq external inline_disabled" href="REPLACE ME WITH READING LINK" target="_blank" rel="noopener">Read<span class="screenreader-only">&nbsp;(Links to an external site.)</span><span class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."><span class="screenreader-only">Links to an external site.</span></span></a>
+                            </div> 
+                        </div> 
+                    </div> 
+                    <p>REPLACE ME: Full APA reference (APA 7th). Make sure you add in the HTML for formatting, particular italics for titles. In lieu of DOIs, include direct link to reading in the database where the article is available.</p> 
+                    <p>REPLACE ME: Explain what the reading is about and provide a rationale for why the student should read it.</p> 
+                </div> 
+              </div>
+
+  - trigger: ":listenblock"
+    replace: |
+              <div class="media-box-usq"> 
+                <div class="border"> 
+                    <div class="media-box-header-2"> 
+                        <div class="info"> 
+                            <div class="group"> 
+                                <div class="m-r-10">
+                                    <span style="font: 2rem InstructureIcons-Line;"> </span> 
+                                    <span class="screenreader-only">Listen font</span>
+                                </div> 
+                                <div> 
+                                    <span class="bold">REPLACE ME: Item title - if podcast, episdoe title</span> 
+                                </div> 
+                            </div> 
+                            <div class="media-box-header__right">
+                                <a class="button-usq external inline_disabled" href="REPLACE ME WITH ITEM LINK" target="_blank" rel="noopener">Read<span class="screenreader-only">&nbsp;(Links to an external site.)</span><span class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."><span class="screenreader-only">Links to an external site.</span></span></a>
+                            </div> 
+                        </div> 
+                    </div> 
+                    <p>REPLACE ME: Full APA reference (APA 7th). Make sure you add in the HTML for formatting, particular italics for titles.</p> 
+                    <p>REPLACE ME: Explain what the item is about and provide a rationale for why the student should listen to it.</p> 
+                </div> 
+              </div>
+
+  - trigger: ":exploreblock"
+    replace: |
+              <div class="media-box-usq"> 
+                <div class="border"> 
+                    <div class="media-box-header-2"> 
+                        <div class="info"> 
+                            <div class="group"> 
+                                <div class="m-r-10">
+                                    <span style="font: 2rem InstructureIcons-Line;">&#xEAE9</span> <span class="screenreader-only">Explore font</span>
+                                </div> 
+                                <div>
+                                    <span class="bold">REPLACE ME: Website title</span>
+                                </div> 
+                            </div> 
+                            <div class="media-box-header__right"><a class="button-usq external inline_disabled" href="REPLACE ME WITH WEBSITE LINK" target="_blank" rel="noopener">Explore<span class="screenreader-only">&nbsp;(Links to an external site.)</span><span class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."><span class="screenreader-only">Links to an external site.</span></span></a>
+                            </div> 
+                        </div> 
+                    </div> 
+                    <p>REPLACE ME: Full APA reference (APA 7th). Make sure you add in the HTML for formatting, particular italics for titles. </p> 
+                    <p>REPLACE M: Explain what the resource is about and provide a rationale for why the student go and explore it.</p> 
+                </div> 
+              </div>
+
+  - trigger: ":blockquote"
+    replace: |
+              <blockquote style="text-align: left;">
+              <p>REPLACE ME: Put the text of the quote here. Put the text of the quote here. Put the text of the quote here. Put the text of the quote here. Put the text of the quote here. Put the text of the quote here. Put the text of the quote here. Put the text of the quote here. Put the text of the quote here. Put the text of the quote here.</p>
+              <p style="font-size: 14px !important; text-align: right;">REPLACE ME: (APA in text citation here)</p> 
+              </blockquote>              
+
+  - trigger: ":hellothere"
+    replace: "General Kenobi"
+
+  - trigger: ":ahref"
+    replace: "<a href='{{clipboard}}' />$|$</a>"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
