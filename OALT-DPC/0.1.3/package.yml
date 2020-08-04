@@ -9,7 +9,7 @@ matches:
     replace: |
               <div class="note info">  
                 <div> 
-                    <p>REPLACE ME: Add your note text here.</p> 
+                    <p>$|$</p> 
                 </div> 
               </div>
   - trigger: ":note!"
