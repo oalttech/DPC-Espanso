@@ -224,7 +224,7 @@ matches:
     replace: "General Kenobi"
 
   - trigger: ":ahref"
-    replace: "<a href='{{clipboard}}' />$|$</a>"
+    replace: '<a href="{{clipboard}}" />$|$</a>'
     vars:
       - name: "clipboard"
         type: "clipboard"

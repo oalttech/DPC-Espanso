@@ -2,7 +2,7 @@
 package_name: "OALT-DPC"
 package_title: "DPC Shortcuts"
 package_desc: "DPC espanso package for use internally"
-package_version: "0.1.1"
+package_version: "0.1.3"
 package_author: "oalttech, katiedavis-usq"
 package_repo: "https://github.com/oalttech/DPC-Espanso"
 ---
